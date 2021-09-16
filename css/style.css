@@ -1,0 +1,147 @@
+body{
+    overflow-x: hidden;
+    font-family: 'Times New Roman', Times, serif;
+}
+#background{
+    
+    background-image: url("../img/banner.jpeg");
+    min-height: 800px;
+}
+
+.parent{
+    display: flex;
+    padding-top: 550px;
+    padding-right: 100px;
+    padding-left: 200px;
+    /* padding-bottom: 80px; */
+}
+.about h3{
+    color: #fff;
+    font-size: 4rem;
+    margin-right: 150px;
+}
+.lorem{
+    background: #fff;
+    padding-top: 40px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+
+#thing{
+    padding: 20px 150px;
+    background: #d9b1b3;
+    color: #fff;
+}
+.thing h4{
+    line-height: 1.5;
+    font-size: 2rem;
+}
+.thing p{
+    padding-right: 450px;
+    padding-bottom: 40px;
+}
+/* IMAGE SECTION */
+.images{
+    display: flex;
+}
+
+
+.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border-radius: 0.25rem;
+  }
+
+  /* COMING SOON */
+#soon{
+    background: #d9b1b3;
+    color: #fff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.text-center{
+    text-align: center;
+}
+.text-center h3{
+    font-size: 2.5rem;
+    margin: 0;
+}
+.text-center input{
+    border-radius: 50px;
+    margin: 5px;
+    padding: 8px;
+}
+button{
+    border-radius: 50px;
+    padding: 8px;
+    background: #000;
+    color: #fff;
+}
+
+
+.article{
+    display: flex;
+    justify-content: space-between;
+}
+.article-img img{
+    padding: 20px 0 30px 100px;
+    width: 300px;
+}
+
+.article-text{
+    padding: 150px 50px 50px 50px;
+    line-height: 1.5;
+}
+
+/* SPRING COLLECTION */
+
+#spring{
+    background: #d9b1b3;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.spring-center{
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+.container{
+    display: flex;
+    padding-left: 100px;
+}
+
+/* PRICING */
+
+#princing{
+    padding: 20px 50px 20px 0;
+}
+.mr{
+    margin-right: 10px;
+}
+.princing-text{
+padding: 50px;
+}
+
+
+.sub-form{
+    margin-top: 100px;
+}
+.sub-form button{
+    margin-left: 150px;
+    margin-top: 10px;
+}
+.sub-form p{
+    padding-right: 40px;
+    padding-left: 40px;
+}
+.icon{
+    margin-left: 150px;
+}
